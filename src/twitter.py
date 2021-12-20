@@ -3,7 +3,7 @@ import tweepy
 from src.keys import keys
 from src.bacon import Frontier, safe_lookup_users
 
-__author__ = 'Shivchander Sudalairaj'
+__author__ = 'Eshwar Prasad'
 
 
 class Tweet:
