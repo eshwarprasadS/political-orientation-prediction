@@ -21,7 +21,7 @@ STOPWORDS.add("will")
 STOPWORDS.add("t")
 STOPWORDS.add("m")
 
-__author__ = 'Shivchander Sudalairaj'
+__author__ = 'Eshwar Prasad'
 
 json_file = open('model/model.json', 'r')
 loaded_model_json = json_file.read()
