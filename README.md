@@ -18,3 +18,16 @@ Data collection to identify seed users, that is, people who were publishing cont
 
 
 The objective of the real-time collection is to identify users who published tweets in English and did a retweet of a candidate’s tweet. The base hypothesis is that if a user retweeted a candidate tweet, it is highly probable that they alluded to the tweet's content to promote a political ideology.
+
+# Tweet Analysis Module
+
+Over 86,000 tweets were collected from 24 Democrats and 24 Republicans, and these tweets were :
+
+- Tokenized
+- Lemmatized
+- Stripped of Stop Words
+- Encoded with each token’s frequency distribution rank
+- Padded for Keras input format (numpy array of 50 length, padded with 0s)
+- Split into 80% Training, 20% Testing sets of data. 
+
+Multiple algorithms were tested, and the choice finally fell upon the two : Bidirectional RNN LSTM and BERT and the two were compared.
