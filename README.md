@@ -3,7 +3,7 @@ Undergraduate Thesis & Project
 
 # Data Extraction Module
 
-![Alt text](Data Extraction Module.png?raw=true "Data_Extraction_Module")
+![Alt text](Data_Extraction_Module.png?raw=true "Data_Extraction_Module")
 
 Objectives of Module : 
 
