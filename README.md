@@ -46,3 +46,10 @@ To leverage :
 - Distance factor (Erdos Number).
 - Retweets (% democrat / % republican).
 - Polarity of Source location of tweets (% democrat / % republican).
+
+# Conclusions and Summary
+
+- We believe that this is a scientific step towards more research into the leverageable aspects of twitter data in Computational Political Science. 
+- The twitter social graph can further be made more effective if a reliable cached version of twitter data could be found that is easy to traverse, considering that the rate limiting on twitter API makes any kind of social networking algorithm ineffective as of now. 
+- The handling of tweet content analysis and classification can further be improved to handle spam accounts. It is also to be noted that sarcasm is yet to be handled by our model and additions could be made to account for this. 
+- Works on detecting sarcasm have emerged and this is a perfect opportunity to employ various NLP tasks, as our model is readily adaptable to any kind of social network that allows messaging or publishing of opinions and links such as friends or followers, such as Facebook, Twitter and Reddit.
