@@ -31,3 +31,15 @@ Over 86,000 tweets were collected from 24 Democrats and 24 Republicans, and thes
 - Split into 80% Training, 20% Testing sets of data. 
 
 Multiple algorithms were tested, and the choice finally fell upon the two : Bidirectional RNN LSTM and BERT and the two were compared.
+
+# Networking Module
+
+![Alt text](Networking_Module.png?raw=true "Data_Extraction_Module")
+
+Objectives of Module : 
+
+To leverage :
+- Followers and Followee (score on % democrat / % republican).
+- Distance factor (Erdos Number).
+- Retweets (% democrat / % republican).
+- Polarity of Source location of tweets (% democrat / % republican).
