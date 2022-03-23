@@ -1,6 +1,9 @@
 # political-orientation-prediction
 Undergraduate Thesis & Project
 
+# Overall Architecture
+![Alt text](Methodology_Diagram.png?raw=true "Data_Extraction_Module")
+
 # Data Extraction Module
 
 ![Alt text](Data_Extraction_Module.png?raw=true "Data_Extraction_Module")
